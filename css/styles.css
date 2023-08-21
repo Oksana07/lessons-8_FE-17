@@ -39,6 +39,11 @@ section .blogs-title {
 
 .link:active {
     color: red;
+    cursor: help;
+}
+button:active{
+  background-color: blue;
+  cursor: pointer;
 }
 
 /* .link:visited {
@@ -46,19 +51,22 @@ section .blogs-title {
 } */
 
 /*  pseudo classes*/
-/* .list-item:not(:last-child) */
-.list-item {
-    margin-bottom: 12px;
+.list-item:not(:last-child){
+  margin-bottom: 12px;
 }
 
-.list-item:last-child {
+/* .list-item {
+    margin-bottom: 12px;
+} */
+
+/* .list-item:first-child {
     margin-bottom: 0;
-}
+} */
 
 
 /* :nth-child(an+b)*/
 
-/* .list-item:nth-child(5) {
+/* .list-item:nth-child(9) {
   background-color: orange;
 } */
 
@@ -93,7 +101,7 @@ section .blogs-title {
 } */
 
 /* Кожен N-й елемент */
-/* .list-item:nth-child(3n + 1) {
+/* .list-item:nth-child(2n + 1) {
   background-color: orange;
 } */
 
